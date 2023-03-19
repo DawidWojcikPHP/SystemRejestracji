@@ -1,0 +1,43 @@
+:root {
+    --color-dark: #7FFFD4;
+    --color-light: #F5F5F5;
+    --color-input: #E0FFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--color-light);
+    height: 100 vh;
+    height: 100 vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: var(--color-dark);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+input {
+    border-radius: 10px;
+    background: var(--color-input);
+    border: none;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input:hover {
+opacity: 0.5;
+}
